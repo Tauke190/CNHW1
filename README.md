@@ -8,7 +8,7 @@ To run the code in your terminal, please follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/Tauke190/ComputerNetworksHW1.git
+   git clone https://github.com/Tauke190/CNHW1.git
    ```
 
 
