@@ -5,6 +5,12 @@ This GitHub repo contains the solution for Project 1 for the Computer Networks c
 ## Running the Repo
 
 To run the code in your terminal, please follow these steps:
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/Tauke190/ComputerNetworksHW1.git
+   ```
+
 
 
 1. **Navigate to the Server and Client Directories:**
@@ -53,21 +59,20 @@ The code should handle concurrent connections smoothly.
   - If the client attempts to send a filename that already exists, the new file overwrites the existing file.
 
 - **Users.txt Format:**
-  - The `users.txt` file should have a delimiter at the end ("-------") for ease of loading into the code.
-  - Each username and password pair should be on one line, separated by a space, with a delimiter at the end of the file. Example:
+  - The `users.txt` file should not have a comma between username and password.
+  - Each username and password pair should be on one line, separated by a space. Example:
     ```
     Aadim Nepal
     Avinash Gyawali
-    ----------------
     ```
 
 ## Design Choice for Port
 
 - **Port Selection:**
-  - We used port `9002` instead of the default ports `21` and `20` due to availability issues on MacOS.
+  - We used port `9013` instead of the default ports `21` and `20` due to availability issues on MacOS.
   - If you encounter a "cannot bind to address" error, change the port by navigating to:
     ```c
-    #DEFINE CMD_PORT 9002
+    #DEFINE CMD_PORT 9013
     ```
     - You can try different port numbers if necessary.
 
